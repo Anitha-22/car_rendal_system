@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero-banner">
+    <div class="hero-content">
+        <h1>Welcome to CarRental</h1>
+        <p>Find your dream ride with us!</p>
+        <a href="{{ url_for('explore') }}" class="explore-btn">Explore Cars</a>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Latest Cars</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car1.jpg') }}" alt="Tesla Model 3">
+            <h3>2024 Tesla Model 3</h3>
+            <p>Electric and futuristic driving experience.</p>
+            <p class="price">$100/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car2.jpg') }}" alt="BMW X5">
+            <h3>2024 BMW X5</h3>
+            <p>Ultimate luxury and performance.</p>
+            <p class="price">$150/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car3.jpg') }}" alt="Audi A6">
+            <h3>2024 Audi A6</h3>
+            <p>Modern elegance and technology.</p>
+            <p class="price">$120/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+
+
+

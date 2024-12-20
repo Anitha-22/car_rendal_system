@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+    <h2>Explore More Cars</h2>
+    <div class="cards">
+        <!-- Car 1 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car1.jpg') }}" alt="Tesla Model 3">
+            <h3>2024 Tesla Model 3</h3>
+            <p class="price">$100/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Car 2 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car2.jpg') }}" alt="BMW X5">
+            <h3>2024 BMW X5</h3>
+            <p class="price">$150/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Car 3 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car3.jpg') }}" alt="Audi A6">
+            <h3>2024 Audi A6</h3>
+            <p class="price">$120/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Car 4 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car4.jpg') }}" alt="Ford Mustang">
+            <h3>2024 Ford Mustang</h3>
+            <p class="price">$180/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Car 5 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car5.jpg') }}" alt="Mercedes Benz C-Class">
+            <h3>2024 Mercedes C-Class</h3>
+            <p class="price">$140/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Car 6 -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car6.jpg') }}" alt="Toyota Corolla">
+            <h3>2024 Toyota Corolla</h3>
+            <p class="price">$80/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <!-- Add More Cars -->
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car7.jpg') }}" alt="Honda Civic">
+            <h3>2024 Honda Civic</h3>
+            <p class="price">$90/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car8.jpg') }}" alt="Chevrolet Camaro">
+            <h3>2024 Chevrolet Camaro</h3>
+            <p class="price">$160/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car9.jpg') }}" alt="Hyundai Elantra">
+            <h3>2024 Hyundai Elantra</h3>
+            <p class="price">$70/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car10.jpg') }}" alt="Kia Sportage">
+            <h3>2024 Kia Sportage</h3>
+            <p class="price">$85/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car11.jpg') }}" alt="Lexus RX">
+            <h3>2024 Lexus RX</h3>
+            <p class="price">$150/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car12.jpg') }}" alt="Porsche Cayenne">
+            <h3>2024 Porsche Cayenne</h3>
+            <p class="price">$200/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car2.jpg') }}" alt="Kia Sportage">
+            <h3>2024 Kia Sportage</h3>
+            <p class="price">$85/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car3.jpg') }}" alt="Lexus RX">
+            <h3>2024 Lexus RX</h3>
+            <p class="price">$150/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/car4.jpg') }}" alt="Porsche Cayenne">
+            <h3>2024 Porsche Cayenne</h3>
+            <p class="price">$200/day</p>
+            <a href="{{ url_for('book') }}">Book Now</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
